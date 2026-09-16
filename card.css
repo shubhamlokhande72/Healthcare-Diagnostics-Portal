@@ -1,0 +1,7 @@
+.param-card {
+display: inline-block; width: 150px; margin: 10px; padding: 15px;
+border: 1px solid #cccccc; border-radius: 8px; text-align: center;
+background-color: #ffffff; box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+.param-card h4 { margin: 0 0 8px 0; color: #003366; }
+.param-card p { margin: 0; font-size: 13px; color: #555555; }

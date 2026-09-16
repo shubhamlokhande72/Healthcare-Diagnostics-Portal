@@ -1,0 +1,11 @@
+.gallery { display: flex; flex-wrap: wrap; gap: 12px; padding: 10px; }
+.gallery img {
+width: 100px; height: 100px; object-fit: cover;
+border: 2px solid #cccccc; border-radius: 6px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery img:hover {
+transform: scale(1.15);
+box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+border-color: #0066cc;
+}

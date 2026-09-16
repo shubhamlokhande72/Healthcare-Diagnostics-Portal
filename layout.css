@@ -1,0 +1,5 @@
+.page-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
+.page-body { display: flex; flex: 1; }
+.sidebar { width: 220px; background-color: #f4f4f4; padding: 15px; }
+.content { flex: 1; padding: 20px; }
+footer { width: 100%; }
